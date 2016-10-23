@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.6.11",
+    "ejs": "^2.5.2",
     "express": "latest",
     "flow": "*",
     "jade": "*",

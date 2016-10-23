@@ -22,7 +22,7 @@
  		},
  		function(err, data) { // Upload file to S3
  			s3.putObject({
- 				Bucket: 'node-sdk-sample-19198238-2e4f-46a6-9300-3ecad6be68b2', //Bucket Name
+ 				Bucket: 's3gui-testing', //Bucket Name
  				Key: file.originalname, //Upload File Name, Default the original name
  				Body: data
  			}, this);
